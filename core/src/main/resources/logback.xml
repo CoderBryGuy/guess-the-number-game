@@ -8,6 +8,7 @@
     </appender>
 
     <logger name="bryan" level="Debug"/>
+    <logger name="org.springframework" level="Debug"/>
 
     <root level="INFO">
         <appender-ref ref="STDOUT"/>
